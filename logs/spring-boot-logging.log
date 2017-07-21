@@ -2284,3 +2284,231 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 2017-07-21 17:18:19.622 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home/{userId}]}" onto public org.springframework.http.ResponseEntity<java.util.Map> com.ex.controller.HomeController.home(java.lang.String)
 2017-07-21 17:18:19.624 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2017-07-21 17:18:19.624 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-21 17:18:19.657 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:18:19.658 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:18:19.673 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:18:19.681 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2017-07-21 17:18:19.685 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2017-07-21 17:18:19.793 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-07-21 17:18:19.826 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-07-21 17:18:19.833 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2017-07-21 17:18:19.834 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2017-07-21 17:18:19.837 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-21 17:18:19.866 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-07-21 17:18:19.881 [restartedMain] INFO  com.ex.SpringbootTestApplication - Started SpringbootTestApplication in 1.397 seconds (JVM running for 4690.069)
+2017-07-21 17:36:31.502 [Thread-24] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@152afa7f: startup date [Fri Jul 21 17:18:18 KST 2017]; root of context hierarchy
+2017-07-21 17:36:31.502 [Thread-24] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-07-21 17:36:31.827 [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:36:31.827 [restartedMain] INFO  com.ex.SpringbootTestApplication - Starting SpringbootTestApplication on kuvdev-PC with PID 12848 (D:\dev\dev_sts\workspace\springBootMybatis\target\classes started by kuvdev in D:\dev\dev_sts\workspace\springBootMybatis)
+2017-07-21 17:36:31.827 [restartedMain] DEBUG com.ex.SpringbootTestApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-21 17:36:31.827 [restartedMain] INFO  com.ex.SpringbootTestApplication - No active profile set, falling back to default profiles: default
+2017-07-21 17:36:31.837 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26b4cd00: startup date [Fri Jul 21 17:36:31 KST 2017]; root of context hierarchy
+2017-07-21 17:36:32.204 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2017-07-21 17:36:32.204 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.ex'
+2017-07-21 17:36:32.204 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\dev\dev_sts\workspace\springBootMybatis\target\classes\com\ex\dao\HomeMapper.class]
+2017-07-21 17:36:32.214 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'homeMapper' and 'com.ex.dao.HomeMapper' mapperInterface
+2017-07-21 17:36:32.214 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'homeMapper'.
+2017-07-21 17:36:32.264 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:36:32.274 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:36:32.274 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-07-21 17:36:32.274 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-07-21 17:36:32.274 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-07-21 17:36:32.274 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-07-21 17:36:32.274 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-07-21 17:36:32.274 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-07-21 17:36:32.274 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-07-21 17:36:32.274 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-07-21 17:36:32.294 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-07-21 17:36:32.409 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-07-21 17:36:32.410 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2017-07-21 17:36:32.411 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-21 17:36:32.426 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-21 17:36:32.426 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 589 ms
+2017-07-21 17:36:32.487 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-21 17:36:32.487 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-21 17:36:32.487 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-21 17:36:32.487 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-21 17:36:32.488 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'helloFilter' to: [/*]
+2017-07-21 17:36:32.488 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-21 17:36:32.594 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-07-21 17:36:32.594 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\dev\dev_sts\workspace\springBootMybatis\target\classes\mapper\user_mapper.xml]'
+2017-07-21 17:36:32.736 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26b4cd00: startup date [Fri Jul 21 17:36:31 KST 2017]; root of context hierarchy
+2017-07-21 17:36:32.746 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home/{userId}]}" onto public org.springframework.http.ResponseEntity<java.util.Map> com.ex.controller.HomeController.home(java.lang.String)
+2017-07-21 17:36:32.746 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-21 17:36:32.746 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-21 17:36:32.770 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:36:32.770 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:36:32.784 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:36:32.793 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2017-07-21 17:36:32.803 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2017-07-21 17:36:32.898 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-07-21 17:36:32.918 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-07-21 17:36:32.928 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2017-07-21 17:36:32.928 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2017-07-21 17:36:32.928 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-21 17:36:32.948 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-07-21 17:36:32.948 [restartedMain] INFO  com.ex.SpringbootTestApplication - Started SpringbootTestApplication in 1.151 seconds (JVM running for 5783.134)
+2017-07-21 17:45:01.969 [Thread-32] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26b4cd00: startup date [Fri Jul 21 17:36:31 KST 2017]; root of context hierarchy
+2017-07-21 17:45:01.969 [Thread-32] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-07-21 17:45:02.249 [restartedMain] INFO  com.ex.SpringbootTestApplication - Starting SpringbootTestApplication on kuvdev-PC with PID 12848 (D:\dev\dev_sts\workspace\springBootMybatis\target\classes started by kuvdev in D:\dev\dev_sts\workspace\springBootMybatis)
+2017-07-21 17:45:02.249 [restartedMain] DEBUG com.ex.SpringbootTestApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-21 17:45:02.249 [restartedMain] INFO  com.ex.SpringbootTestApplication - No active profile set, falling back to default profiles: default
+2017-07-21 17:45:02.249 [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:45:02.269 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cef7bf8: startup date [Fri Jul 21 17:45:02 KST 2017]; root of context hierarchy
+2017-07-21 17:45:02.655 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2017-07-21 17:45:02.656 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.ex'
+2017-07-21 17:45:02.661 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\dev\dev_sts\workspace\springBootMybatis\target\classes\com\ex\dao\HomeMapper.class]
+2017-07-21 17:45:02.680 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'homeMapper' and 'com.ex.dao.HomeMapper' mapperInterface
+2017-07-21 17:45:02.681 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'homeMapper'.
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-07-21 17:45:02.721 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-07-21 17:45:02.751 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-07-21 17:45:02.833 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-07-21 17:45:02.834 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2017-07-21 17:45:02.834 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-21 17:45:02.858 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-21 17:45:02.859 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 590 ms
+2017-07-21 17:45:02.912 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-21 17:45:02.913 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-21 17:45:02.913 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-21 17:45:02.913 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-21 17:45:02.913 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'helloFilter' to: [/*]
+2017-07-21 17:45:02.913 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-21 17:45:03.004 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-07-21 17:45:03.011 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\dev\dev_sts\workspace\springBootMybatis\target\classes\mapper\user_mapper.xml]'
+2017-07-21 17:45:03.143 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cef7bf8: startup date [Fri Jul 21 17:45:02 KST 2017]; root of context hierarchy
+2017-07-21 17:45:03.153 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home/{userId}]}" onto public org.springframework.http.ResponseEntity<java.util.Map> com.ex.controller.HomeController.home(java.lang.String)
+2017-07-21 17:45:03.153 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-21 17:45:03.153 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-21 17:45:03.163 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:45:03.163 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:45:03.184 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:45:03.190 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2017-07-21 17:45:03.194 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2017-07-21 17:45:03.265 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-07-21 17:45:03.295 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-07-21 17:45:03.295 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2017-07-21 17:45:03.295 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2017-07-21 17:45:03.295 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-21 17:45:03.305 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-07-21 17:45:03.305 [restartedMain] INFO  com.ex.SpringbootTestApplication - Started SpringbootTestApplication in 1.096 seconds (JVM running for 6293.488)
+2017-07-21 17:49:43.874 [Thread-40] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cef7bf8: startup date [Fri Jul 21 17:45:02 KST 2017]; root of context hierarchy
+2017-07-21 17:49:43.874 [Thread-40] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-07-21 17:49:44.114 [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:49:44.114 [restartedMain] INFO  com.ex.SpringbootTestApplication - Starting SpringbootTestApplication on kuvdev-PC with PID 12848 (D:\dev\dev_sts\workspace\springBootMybatis\target\classes started by kuvdev in D:\dev\dev_sts\workspace\springBootMybatis)
+2017-07-21 17:49:44.114 [restartedMain] DEBUG com.ex.SpringbootTestApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-21 17:49:44.114 [restartedMain] INFO  com.ex.SpringbootTestApplication - No active profile set, falling back to default profiles: default
+2017-07-21 17:49:44.124 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e76501b: startup date [Fri Jul 21 17:49:44 KST 2017]; root of context hierarchy
+2017-07-21 17:49:44.459 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2017-07-21 17:49:44.459 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.ex'
+2017-07-21 17:49:44.459 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\dev\dev_sts\workspace\springBootMybatis\target\classes\com\ex\dao\HomeMapper.class]
+2017-07-21 17:49:44.469 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'homeMapper' and 'com.ex.dao.HomeMapper' mapperInterface
+2017-07-21 17:49:44.469 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'homeMapper'.
+2017-07-21 17:49:44.514 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:49:44.516 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:49:44.516 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-07-21 17:49:44.516 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-07-21 17:49:44.516 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-07-21 17:49:44.516 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-07-21 17:49:44.517 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-07-21 17:49:44.517 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-07-21 17:49:44.517 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-07-21 17:49:44.518 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-07-21 17:49:44.551 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-07-21 17:49:44.676 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-07-21 17:49:44.676 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2017-07-21 17:49:44.677 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-21 17:49:44.699 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-21 17:49:44.699 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 575 ms
+2017-07-21 17:49:44.743 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-21 17:49:44.743 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-21 17:49:44.743 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-21 17:49:44.743 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-21 17:49:44.743 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'helloFilter' to: [/*]
+2017-07-21 17:49:44.743 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-21 17:49:44.823 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2017-07-21 17:49:44.833 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\dev\dev_sts\workspace\springBootMybatis\target\classes\mapper\user_mapper.xml]'
+2017-07-21 17:49:44.953 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e76501b: startup date [Fri Jul 21 17:49:44 KST 2017]; root of context hierarchy
+2017-07-21 17:49:44.975 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home/{userId}]}" onto public org.springframework.http.ResponseEntity<java.util.Map> com.ex.controller.HomeController.home(java.lang.String)
+2017-07-21 17:49:44.975 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-21 17:49:44.975 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-21 17:49:45.006 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:49:45.006 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:49:45.021 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-21 17:49:45.029 [restartedMain] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2017-07-21 17:49:45.036 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2017-07-21 17:49:45.115 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-07-21 17:49:45.145 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-07-21 17:49:45.145 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2017-07-21 17:49:45.145 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2017-07-21 17:49:45.155 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-21 17:49:45.155 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-07-21 17:49:45.155 [restartedMain] INFO  com.ex.SpringbootTestApplication - Started SpringbootTestApplication in 1.082 seconds (JVM running for 6575.341)
+2017-07-21 17:51:40.992 [Thread-48] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e76501b: startup date [Fri Jul 21 17:49:44 KST 2017]; root of context hierarchy
+2017-07-21 17:51:40.992 [Thread-48] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-07-21 17:51:41.229 [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:51:41.229 [restartedMain] INFO  com.ex.SpringbootTestApplication - Starting SpringbootTestApplication on kuvdev-PC with PID 12848 (D:\dev\dev_sts\workspace\springBootMybatis\target\classes started by kuvdev in D:\dev\dev_sts\workspace\springBootMybatis)
+2017-07-21 17:51:41.229 [restartedMain] DEBUG com.ex.SpringbootTestApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-21 17:51:41.229 [restartedMain] INFO  com.ex.SpringbootTestApplication - No active profile set, falling back to default profiles: default
+2017-07-21 17:51:41.229 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@aed5379: startup date [Fri Jul 21 17:51:41 KST 2017]; root of context hierarchy
+2017-07-21 17:51:41.529 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2017-07-21 17:51:41.529 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.ex'
+2017-07-21 17:51:41.529 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\dev\dev_sts\workspace\springBootMybatis\target\classes\com\ex\dao\HomeMapper.class]
+2017-07-21 17:51:41.539 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'homeMapper' and 'com.ex.dao.HomeMapper' mapperInterface
+2017-07-21 17:51:41.539 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'homeMapper'.
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-07-21 17:51:41.579 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-07-21 17:51:41.599 [restartedMain] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-07-21 17:51:41.669 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)

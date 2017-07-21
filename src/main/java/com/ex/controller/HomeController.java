@@ -28,7 +28,6 @@ public class HomeController {
 		Map<String, String> userInfo = homeService.selectUserInfo(userId);
 		
 		logger.debug("userInfo : " +userInfo);
-		logger.debug("git 수정 테스트111");
 		
 		return new ResponseEntity<Map>(userInfo, HttpStatus.OK);
 	}
