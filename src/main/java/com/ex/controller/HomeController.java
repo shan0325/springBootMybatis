@@ -29,6 +29,8 @@ public class HomeController {
 		
 		logger.debug("userInfo : " +userInfo);
 		
+		logger.debug("git test");
+		
 		return new ResponseEntity<Map>(userInfo, HttpStatus.OK);
 	}
 	
