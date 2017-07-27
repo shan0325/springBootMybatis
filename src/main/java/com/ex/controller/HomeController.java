@@ -26,10 +26,7 @@ public class HomeController {
 	public ResponseEntity<Map> home(@PathVariable String userId) {
 		
 		Map<String, String> userInfo = homeService.selectUserInfo(userId);
-		
 		logger.debug("userInfo : " +userInfo);
-		
-		logger.debug("git test");
 		
 		return new ResponseEntity<Map>(userInfo, HttpStatus.OK);
 	}
