@@ -5,4 +5,9 @@
 	<select id="selectUserInfo" parameterType="java.lang.String" resultType="java.util.Map">
 		SELECT * FROM LETTNEMPLYRINFO WHERE EMPLYR_ID = #{userId}
 	</select>
+	
+	<insert id="insertUserInfo" parameterType="java.util.Map">
+		INSERT INTO LETTNEMPLYRINFO(EMPLYR_ID, USER_NM, PASSWORD, PASSWORD_HINT, PASSWORD_CNSR, EMPLYR_STTUS_CODE, ESNTL_ID)
+					VALUES(#{emplyr_id}, #{user_nm}, #{password}, #{password_hint}, #{password_cnsr}, #{emplyr_sttus_code}, #{esntl_id})
+	</insert>
 </mapper>

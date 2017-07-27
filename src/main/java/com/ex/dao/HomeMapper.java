@@ -8,5 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
 public interface HomeMapper {
 	
 	public Map<String, String> selectUserInfo(String userId);
+	
+	public void insertUserInfo(Map<String, String> paramMap);
 
 }

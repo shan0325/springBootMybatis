@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class HelloFilter implements Filter {
+public class HomeFilter implements Filter {
 	
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -31,7 +31,7 @@ public class HelloFilter implements Filter {
 		HttpServletRequest httpServletRequest = (HttpServletRequest)req;
 		HttpServletResponse httpServletResponse = (HttpServletResponse)res;
 		
-		logger.info("Filter 처리");
+		logger.info("Client IP : " + httpServletRequest.getRemoteAddr());
 		
 		chain.doFilter(req, res);
 	}
