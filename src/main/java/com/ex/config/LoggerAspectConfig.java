@@ -1,4 +1,4 @@
-package com.ex.common.logger;
+package com.ex.config;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -15,9 +15,9 @@ import org.springframework.core.annotation.Order;
 @EnableAspectJAutoProxy
 @Aspect
 @Order(Ordered.LOWEST_PRECEDENCE)
-public class LoggerAspect {
+public class LoggerAspectConfig {
 	
-	private final Logger logger = LoggerFactory.getLogger(LoggerAspect.class);
+	private final Logger logger = LoggerFactory.getLogger(LoggerAspectConfig.class);
 	
 	static String name = "";
 	static String type = "";
